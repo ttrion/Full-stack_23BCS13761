@@ -38,8 +38,7 @@
     </section>
     <section>
         <h2>Qualification</h2>
-        <table>
-             <table border="2">
+        <table border="2">
             <thead>
                 <tr>
                     <th>Degree</th>
@@ -69,11 +68,22 @@
                 </tr>
             </tbody>
         </table>
-        </table>
     </section>
     <section>
-        <form>
-            
+         <form action="#">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="phone">Phone Number:</label><br>
+            <input type="text" id="phone" name="phone"><br><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" cols="40" placeholder="Enter your message here..."></textarea><br><br>
+
+            <button type="submit">Send</button>
         </form>
     </section>
 </body>
