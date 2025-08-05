@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.5px;
+    word-spacing: 4px;
+}
+
+
+body{
+    background-color: #F5E8D8;
+    color: #F5E8D8;
+    border:#F5E8D8 solid; 
+}
+
+div{
+    background-color: #1C1C1C;
+    margin: 20px 240px;    
+    padding: 60px;
+}
+
+header{
+    margin: 0;
+}
+
+header h1 {
+    margin-bottom: 8px;
+    font-size: 50px;
+}
+
+header p {
+    margin: 8px 0;
+}
+
+header nav {
+    margin: 8px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header nav a {
+    color: #FF6F61;
+}
+
+main {
+    padding: 20px;
+}
+
+section{
+    margin: 30px 0;
+}
+
+section h2 {
+    margin: 20px 0;
+    font-size: xx-large;
+}
+
+#about p {
+    font-size: large;
+}
+
+#skills ul {
+    padding-left: 20px;
+}
+
+#skills ul li{
+    margin-top: 4px;
+}
+
+#projects ol {
+    padding-left: 20px;
+}
+
+#projects ol li {
+    margin-top: 8px;
+}
+
+#education table thead tr th{
+    padding: 5px 100px;
+}
+
+#education table tbody tr td{
+    text-align: center;
+    padding: 5px 0;
+}
+
+#contact form {
+    background-color: #F5E8D8;
+    margin: 20px 200px;
+    padding: 20px 40px;
+    color: #1C1C1C;
+}
+
+#contact form input {
+    width:100%;
+    padding: 2px;
+}
+
+#contact form textarea{
+    width: 100%;
+}
+
+#contact form button{
+    width: 50%;
+    margin-left: 25%;
+    padding: 4px;
+    background-color:#FF6F61;
+    color: white;
+}
+
+footer p{
+    margin-top: 10px;
+    margin-left: 8px;
+}
