@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tanay Manish Nesari</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
+</head>
+<body>
+  <div class="toggle-container">
+    <button onclick="toggleDarkMode()">🌙 Toggle Dark Mode</button>
+  </div>
+
+  <header>
+    <h1>Tanay Manish Nesari</h1>
+    <p>Hello, I am Tanay Manish Nesari. I am a Software Developer.</p>
+    <img src="" alt="C:\Users\Admin\Pictures\Camera Roll\b" width="100" height="100" />
+    <br>
+  </header>
+
+  <nav>
+    <a href="#">Github</a>
+    <a href="https://www.linkedin.com/in/tanay-manish-nesari/" target="_blank">LinkedIn</a>
+    <a href="#">Leetcode</a>
+  </nav>
+
+  <section>
+    <h2>Skills</h2>
+    <ul>
+      <li>C++</li>
+      <li>Java</li>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>React</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <ol>
+      <li><strong>Portfolio Website:</strong> Personal portfolio website to showcase my skills and projects.</li>
+      <li><strong>CAD building</strong> used autocad to design an apartment.</li>
+      <li><strong>Car rental service</strong> used python to develop a basic car rental service.</li>
+      <li><strong>ML project- train model to predict salaries</strong> used python to train a ML model on a database to predict a appropiate range of salaries.</li>
+    </ol>
+  </section>
+
+  <section>
+        <h2>Qualification</h2>
+        <table border="2">
+            <thead>
+                <tr>
+                    <th>Degree</th>
+                    <th>Institution</th>
+                    <th>Year</th>
+                    <th>CGPA / Percentage</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>B.E. in Computer Science</td>
+                    <td>Chandigarh University</td>
+                    <td>2025 - Present</td>
+                    <td>7.54 CGPA</td>
+                </tr>
+                <tr>
+                    <td>12th (Senior Secondary)</td>
+                    <td>Ryan international school, bangalore</td>
+                    <td>2022</td>
+                    <td>80.2%</td>
+                </tr>
+                <tr>
+                    <td>10th (Secondary)</td>
+                    <td>Ryan international school, bangalore</td>
+                    <td>2020</td>
+                    <td>80.0%</td>
+                </tr>
+            </tbody>
+        </table>
+    </section> 
+
+  <section>
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="phone_no">Phone Number:</label>
+      <input type="tel" id="phone_no" name="phone_no" required />
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <script>
+    function toggleDarkMode() {
+      document.body.classList.toggle("dark-mode");
+    }
+  </script>
+</body>
+</html>
