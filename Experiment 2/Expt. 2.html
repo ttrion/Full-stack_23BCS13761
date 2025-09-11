@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="grid.css">
+</head>
+<body class="light-theme">
+    <div class="dashboard-container">
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>Admin Dashboard</h2>
+                <div class="theme-toggle">
+                    <button id="theme-button">Toggle Theme</button>
+                </div>
+            </div>
+            <nav class="sidebar-nav">
+                <ul>
+                    <li><a href="#">Overview</a></li>
+                    <li><a href="#">Analytics</a></li>
+                    <li><a href="#">Reports</a></li>
+                    <li><a href="#">Users</a></li>
+                    <li><a href="#">Settings</a></li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="main-content">
+            <header class="main-header">
+                <h1>Welcome, Admin!</h1>
+            </header>
+            <section class="dashboard-grid">
+                <div class="card analytics-card">
+                    <h3>Sales Overview</h3>
+                    <div class="chart-placeholder">📊</div>
+                </div>
+                <div class="card users-card">
+                    <h3>User Statistics</h3>
+                    <div class="chart-placeholder">👥</div>
+                </div>
+                <div class="card reports-card">
+                    <h3>Traffic Data</h3>
+                    <div class="chart-placeholder">📈</div>
+                </div>
+                <div class="card settings-card">
+                    <h3>System Health</h3>
+                    <div class="chart-placeholder">⚙️</div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="admin.js"></script>
+</body>
+</html>
